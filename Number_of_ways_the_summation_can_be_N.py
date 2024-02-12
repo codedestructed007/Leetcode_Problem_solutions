@@ -5,7 +5,8 @@ form a number N using the sum of the given three numbers.
 """
 
 # Using Recursion
-# Time com
+# Time complexity  - 3^N
+# Space complexity - O(n) [Since stack is used in backed to store the function calls]
 
 class Solution():
     def possible_ways(self,n):
